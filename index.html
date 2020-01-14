@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <title>Amazon</title>
+</head>
+
+<body>
+    <!-- Datos multimedia -->
+    <form class="form" method="post" enctype="multipart/form-data">
+        <div>
+            <input class="hide" type="file" name="file" id="file" multiple />
+
+            <div id="drop-zone" class="drop-zone">
+                <!-- Icono utilizado -->
+                <i class="fas fa-file-upload"></i>
+                <p class="drop-zone__text">
+                    Arrastre su comprobante de domicilio
+                </p>
+            </div>
+            <input type="submit" id="upload-button" class="form__button" value="Upload">
+    </form>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
