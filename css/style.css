@@ -1,7 +1,7 @@
 /**
  * @Author José Llamas
  */
- 
+
 .drop-zone {
     width: 50%;
     margin: 1rem auto;
@@ -12,12 +12,12 @@
     justify-content: center;
     align-items: center;
     font-size: 1.5rem;
-    border: 5px dashed #4782f6;
+    border: 5px dashed rgb(109, 23, 124);
 }
   
 .drop-zone--active {
     border: 5px solid #caced6;
-    background-color: #414141;
+    background-color: #7c7ef5;
     color: #caced6;
 }
   
@@ -33,6 +33,7 @@
     border-radius: 5px;
     color: #ffffff;
     cursor: pointer;
+    font-weight: bolder;
 }
   
 .hide {

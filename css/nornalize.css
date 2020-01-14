@@ -6,6 +6,6 @@ body {
     margin: 0;
     background-color: #ffffff;
     font-family: sans-serif;
-    color: #222;
+    color: rgb(0, 0, 0);
     user-select: none;
 }
