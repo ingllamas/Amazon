@@ -39,4 +39,15 @@
 .hide {
     display: none;
 }
+
+.map-address{
+    width: 100%;
+    padding: 16px;
+}
+
+.map-address iframe{
+    width: 80%;
+    height: 512px;
+    padding: 16px;
+}
   
