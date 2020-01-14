@@ -1,0 +1,53 @@
+/**
+ * @Author José Llamas
+ */
+
+.drop-zone {
+    width: 50%;
+    margin: 1rem auto;
+    height: 256px;
+    background-color: #e7dada;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border: 5px dashed rgb(109, 23, 124);
+}
+  
+.drop-zone--active {
+    border: 5px solid #caced6;
+    background-color: #7c7ef5;
+    color: #caced6;
+}
+  
+.form {
+    width: 100%;
+    text-align: center;
+}
+  
+.form__button {
+    background: rgb(109, 23, 124);
+    border: none;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bolder;
+}
+  
+.hide {
+    display: none;
+}
+
+.map-address{
+    width: 100%;
+    padding: 16px;
+}
+
+.map-address iframe{
+    width: 80%;
+    height: 512px;
+    padding: 16px;
+}
+  

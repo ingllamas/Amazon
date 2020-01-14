@@ -1,0 +1,15 @@
+{
+  "name": "amazon",
+  "version": "1.0.0",
+  "description": "Add files as proof of address and obtain address",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "José Llamas",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-uglify": "^3.0.2"
+  }
+}
